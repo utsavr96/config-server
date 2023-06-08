@@ -56,7 +56,6 @@ logging:
     '[com.nagarro.controller]': debug
   file:
     name: userclient-ws.log
-limits-service:
-  minimum: 6
+limits-service: 7
       
        
