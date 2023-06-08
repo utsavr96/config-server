@@ -58,6 +58,6 @@ logging:
     name: userclient-ws.log
 application:
   theme:
-    color: "Red"
+    color: "Green"
       
        
