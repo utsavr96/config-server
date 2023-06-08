@@ -55,6 +55,8 @@ logging:
     '[com.nagarro.proxy]': debug
     '[com.nagarro.controller]': debug
   file:
-    name: userclient-ws.log   
+    name: userclient-ws.log
+limits-service:
+  minimum: 6
       
        
