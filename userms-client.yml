@@ -56,6 +56,8 @@ logging:
     '[com.nagarro.controller]': debug
   file:
     name: userclient-ws.log
-limits-service: 11
+application:
+  theme:
+    color: "Red"
       
        
