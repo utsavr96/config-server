@@ -1,6 +1,8 @@
 server:
   port: 8085
 spring:
+  config:
+    import: "optional:configserver:"
   application:
     name: userms-client
 eureka:
@@ -26,5 +28,6 @@ resilience4j:
         automatic-transition-from-open-to-half-open-enabled: true
         sliding-window-type: count-based
         wait-duration-in-open-state: 10s
-      
-      
+application:
+  theme:
+    color: "blue"
